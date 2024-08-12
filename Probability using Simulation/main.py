@@ -1,3 +1,4 @@
+import random
 from prob_simul import Hat,experiment
 seed_=15000
 myhat=Hat(black=5,red=8,green=3,blue=9)
