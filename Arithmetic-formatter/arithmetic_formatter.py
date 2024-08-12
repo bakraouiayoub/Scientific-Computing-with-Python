@@ -1,4 +1,5 @@
-# Function that checks the rules and returns the numbers, the operators, the solutions of the given problems and the maximum number of digits for each problem.
+# Function that checks the rules and returns the numbers, the operators, the solutions of the given problems 
+#and the maximum number of digits for each problem.
 def numbers_operators(problems):
     if len(problems)>5:
         return 'Error: Too many problems.'
@@ -29,7 +30,8 @@ def numbers_operators(problems):
     return problems_dict  
 
         
-#function that receives a list of strings which are arithmetic problems, and returns the problems arranged vertically and side-by-side
+#function that receives a list of strings which are arithmetic problems, and returns the problems arranged vertically 
+#and side-by-side
 
 def arithmetic_arranger(problems, show_answers=False):
     number_of_problems=len(problems)
