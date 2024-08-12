@@ -5,7 +5,7 @@ print("\n")
 expected_balls={'black':2,'red':2,'green':2,'blue':3}
 wording_dict={"0":"at least","1":"exactly"}
 print(wording_dict)
-wording=int(input("Choose the wording used for the problem using the corresponding keys of : at least or exactly. "))
+wording=int(input('Choose the wording used for the problem using the corresponding keys of "at least" or "exactly". '))
 print("\n\n")
 num_experiments=int(input("Choose the number of simulations:"))
 num_balls_drawn=int(input("Choose the number of balls drawn:"))
