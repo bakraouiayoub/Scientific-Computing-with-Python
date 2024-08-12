@@ -100,30 +100,3 @@ def create_spend_chart(categories):
         top_chart+=" \n" 
     return (title + top_chart+category_name(categories)).rstrip('\n')
     
-       
-
-
-
-# main 
-def main():
-    food = Category('Food') 
-    food.deposit(1000, 'initial deposit')
-    food.withdraw(10.15, 'groceries')
-    food.withdraw(15.89, 'restaurant and more food for dessert') 
-    clothing = Category('Clothing')
-    food.transfer(400, clothing)
-    clothing.withdraw(200,'suit')
-    auto = Category('Auto')
-    auto.deposit(1500,'initial deposit')
-    auto.withdraw(400,'Repairs')
-    print(food)
-    print('\n')
-    print(clothing)
-    print('\n')
-    print(auto)
-    print('\n')
-    print(create_spend_chart([food,clothing,auto]))
-  
-
-main()
-
