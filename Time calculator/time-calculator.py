@@ -86,11 +86,5 @@ def add_time(start, duration,starting_day_of_week=False):
 
     
 
-def main():
-    start="9:16 AM"
-    duration="466:02"
-    print(add_time(start,duration,"tuesday"))
-
-    
-main()    
+   
     
